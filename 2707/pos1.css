@@ -1,0 +1,19 @@
+html,body{
+    background-color: aquamarine;
+}
+.par1{
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0px 1px 96px 74px rgba(99,66,99,0.39);
+    border-radius: 50%;
+}
+.par1:hover{
+    background-color: bisque;
+    transform: scale(1.3);
+}
